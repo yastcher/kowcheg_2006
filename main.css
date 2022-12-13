@@ -1,0 +1,194 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	background:	rgb(181, 216, 235)
+			URL("datacash/ice_l_m.gif")
+			left top
+			repeat;
+}
+
+td {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+th {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+h2 {
+	align: "center";
+}
+
+h3 {
+	align: "center";
+}
+
+.bodystyle {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+.small {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11px;
+}
+
+.medium {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+}
+
+.big {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+
+.xbig {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+}
+
+.expanded {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 2px;
+}
+
+.justified {
+	font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+}
+
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #999999;
+}
+
+.box1 {
+	padding: 3px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #CCCCCC #666666 #666666 #CCCCCC;
+}
+
+.box2 {
+	font-style: italic;
+	word-spacing: 2pt;
+	padding: 3px;
+	border-width: thin;
+	border-style: solid;
+}
+
+<!-- >>>>>>>>>>>>>> Hasan's work. No fucking delete <<<<<<<<<<<<<<< -->
+
+.arred
+{
+font-family: Arial, Helvetica, sans-serif;
+color: "#ff0000";
+}
+
+a.linkrb 
+{
+color: #4169E1;
+font-family: "Times New Roman", Times, serif;
+font-size: 14px;
+}
+
+a.linkrb:visited
+{
+color: #4169E1;
+font-size: 14px;
+}
+
+a.linkrb:hover
+{ 
+color: #ff4500;
+font-weight: bolder;
+font-size: 16px;
+}
+
+a.linkb { color: blue;}
+a.linkb:visited { color: blue;}
+
+p.redef
+{
+margin-top: 0px;
+margin-bottom: 0px;
+text-indent: 20px;
+align: left;
+}
+
+p.arredef
+{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 18px;
+align: left;
+text-indent: 5px;
+color: rgb(242, 217, 128);
+margin: 0px;
+}
+
+div p.arredef
+{
+position: relative;
+left: 0px;
+top: -15px;
+text-indent: 0px;
+color: black;
+}
+
+td.layer
+{
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+-moz-opacity: 0.4;
+background-color: #000000;
+padding: 0px;
+}
+
+<!-- unused -->
+div.divlayer
+{
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);
+-moz-opacity: 0.4;
+background-color: #000000;
+padding: 0px;
+}
+
+.firstletter
+{
+font-size: 24px;
+float: left;
+color: rgb(222, 189, 13);
+padding: 3px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+ul
+{
+margin-left: 30px;
+padding-left: 30px;
+}
+
+ol
+{
+margin-left: 30px;
+padding-left: 30px;
+}
+
+li
+{
+padding-left: 5px;
+padding-bottom: 10px;
+}
+<!--
+p.new
+{
+margin-top: 2px;
+margin-bottom: 2px;
+font-size: 16px;
+} -->

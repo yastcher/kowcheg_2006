@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+	"DTD/xhtml1-frameset.dtd">
+<html xmlns="http:/www.w3.org/1999/xhtml"
+	xml:lang="ru" lang="ru">
+
+<head>
+<title> Турклуб РГУ - "КОВЧЕГ" </title>
+<meta name="keywords" contents="ковчег турклуб туризм турист туристы альпинизм горный пешеходный водный спортивный перевал перевалы
+ описание перевалов путешествие поход горы Кавказ Приэльбрусье РГУ экстрим спортивная секция походы Ростовский Государственный Университет 
+ Ростов-на-Дону Ростов Ковчег Сказик Rostov tour tourizm pass tripper travel tourist Kovcheg Rostov-on-Don RSU sport mountain mount Skazik" />
+<meta name="description" contents="Основная управляющая страница" />
+<meta name="author" contents="Dremov Yuri N.  yudremov@rostov.ru" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<link rel="stylesheet" href="main.css" type=text/css>
+<script language="JavaScript">
+
+function newImage(arg)
+{
+	if (document.images)
+		{
+			result=new Image();
+			result.src=arg;
+			return result;
+		}
+}
+
+preloadFlag=false;
+
+function preloadImages()
+{
+	imglist=new Array();
+	arg=preloadImages.arguments;
+	if (document.images)
+		{
+			for (i=0; i<arg.length; i++)
+				{
+					imglist[i]=newImage(arg[i]);
+				}
+			preloadFlag=true;
+		}
+}
+
+</script>
+</head>
+
+<frameset rows="60, *,30">
+<frame src="topkovcheg.html" onLoad="preloadImages('datacash/ice_g.gif', 'datacash/anthon_logo.gif', 'datacash/rzep.gif', 'datacash/lzep.gif', 'datacash/ice_l_m.gif', 'datacash/left_black.gif', 'datacash/rope_red.gif', 'datacash/red_arrow.gif', 'datacash/black_diam.gif')" name="top" id="top" noresize frameborder=2/>
+
+	<frameset cols="180, *"> <!--150 -->
+	<frame src="leftpanel.html" name="left" id="left" noresize frameborder=0 />
+	<frame src="historynews.html" name="info" id="info" noresize frameborder=0 />
+</frameset>
+
+<frame src="bottompanel.html" name="update" id="update" noresize frameborder=2/>
+
+<noframes>
+
+<body>
+<p><h2 align="center">Ваш браузер не поддерживает фреймов</h2></p>
+<p align="center"><h2 align="center">Для просмотра упрощенной версии сайта (без фреймов) щелкните
+<a href="kovcheghome.html" target="_top"> здесь. </a></h2></p>
+</body>
+
+</noframes>
+</frameset>
+</html>
